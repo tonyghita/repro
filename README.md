@@ -2,6 +2,8 @@
 
 > A small reproduction for a Go 1.16 internal compiler error.
 
+The issue is tracked at <https://github.com/golang/go/issues/44355>.
+
 I wasn't able to figure out how to run this reproduction on play.golang.org, so I made this small repository instead.
 
 I was able to `git bisect` the commit which introduced this error to <https://github.com/golang/go/commit/f2c0c2b90200b470c39a2db821b7c707604fe083>.
